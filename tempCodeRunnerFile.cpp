@@ -1,9 +1,9 @@
-cout<<"The array elements are : "<<endl;
+#include<bits/stdc++.h>
 
-    //   for(int row = 0; row<3; row++){
-    //     for(int col = 0; col<4; col++){
+using namespace std;
 
-    //        cout<<arr[row][col]<<" ";
-    //     }
-    //     cout<<endl;
-    // }
+int main(){
+
+    cout<<"HEllo world";
+
+}
