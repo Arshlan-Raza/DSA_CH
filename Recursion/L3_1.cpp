@@ -12,11 +12,12 @@ bool isSorted(int *arr, int n){
         return true;
     }
 
+    //processing 
     if(arr[0]>arr[1]){
         return false;
     }
     else{
-        isSorted((arr+1), (n -1));
+        isSorted((arr+1), (n -1)); // recursive relation
     }
     return true ;
 }
