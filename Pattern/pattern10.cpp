@@ -33,6 +33,6 @@ int main(){
         ch++; //* (For printing same alphabets in the rows)
         
     }
-    cout << endl;
+   
 
 }
