@@ -28,6 +28,6 @@ int main(){
         cout << endl;
         ch++;
     }
-    cout << endl;
+ 
 
 }
