@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int position(int* arr, int s , int e ){
+int partion(int* arr, int s , int e ){
 
     int pivot = arr[s];
     int count = 0;
@@ -45,7 +45,7 @@ void quickSort(int* arr , int s, int e){
         return ;
     
     // getting the position
-    int p = position(arr,s,e);
+    int p = partion(arr,s,e);
 
     // quicksort of left part
     quickSort(arr,s,p-1);
