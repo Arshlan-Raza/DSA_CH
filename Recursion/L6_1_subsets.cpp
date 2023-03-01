@@ -45,7 +45,7 @@ int main(){
             cout<<ans[i][j]<<" ";
         }
         cout<<"}";
-        cout<<endl;
+        cout<<",";
     }
 
 }
