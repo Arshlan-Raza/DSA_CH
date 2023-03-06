@@ -2,7 +2,7 @@
 
 using namespace std;
 
-/*
+
 int fibonacci(int n){
 
     if(n == 0)
@@ -14,8 +14,9 @@ int fibonacci(int n){
 
     
 }
-*/
 
+
+/*
 int forloop(int n){
 
     vector<int > ans;
@@ -39,14 +40,38 @@ int forloop(int n){
     
     return res;
 }
+*/
+
+void fib(int n, int a, int b) {
+    if (n == 0) {
+        return;
+    }
+    int c = a + b;
+    cout << c << " ";
+    fib(n-1, b, c);
+}
+
 
 int main(){
 
     int n;
     cin>>n;
 
-    // int ans = fibonacci(n);
-    cout<<"The "<<n<< " fibonacci term is :"<<forloop(n);
+    int a = 0, b =1;
+
+   cout<<a<<" "<<b<<" ";
+   fib(n-2,a ,b);
+
+    int ans = fibonacci(n-1);
+
+    cout<<endl;
+
+    cout<<"The "<<n<<" element is : "<<ans<<endl;
+
+    // cout<<"The "<<n<< " fibonacci term is :"<<forloop(n);
+
+ 
+
 
     return 0;
 }
